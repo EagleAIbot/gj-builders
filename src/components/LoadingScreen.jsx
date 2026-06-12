@@ -22,7 +22,7 @@ export function LoadingScreen() {
   return (
     <div ref={ref} className="loader" aria-hidden={isReady}>
       <div className="loader-inner">
-        <div className="loader-mark"><img src="/images/favicon.png" alt="" /></div>
+        <div className="loader-mark"><img src="images/favicon.png" alt="" /></div>
         <div className="loader-bar"><span /></div>
         <p className="loader-text">GJ Builders</p>
       </div>

@@ -66,31 +66,31 @@ const SERVICES = [
     icon: Home,
     title: 'House Extensions',
     desc: 'Creating additional living space tailored to your family\u2019s needs.',
-    img: '/images/rear-extension.png',
+    img: 'images/rear-extension.png',
   },
   {
     icon: Layers,
     title: 'Renovations',
     desc: 'Transforming and improving existing spaces to modern standards.',
-    img: '/images/sliding-doors.png',
+    img: 'images/sliding-doors.png',
   },
   {
     icon: BrickWall,
     title: 'Bricklaying',
     desc: 'Professional brickwork completed to a high standard.',
-    img: '/images/driveway-stone-wall.png',
+    img: 'images/driveway-stone-wall.png',
   },
   {
     icon: Fence,
     title: 'Patios',
     desc: 'Creating attractive and practical outdoor spaces.',
-    img: '/images/patio-garden-room.png',
+    img: 'images/patio-garden-room.png',
   },
   {
     icon: Wrench,
     title: 'All Aspects of Construction',
     desc: 'Providing a complete range of construction services for residential projects.',
-    img: '/images/extension-structure.png',
+    img: 'images/extension-structure.png',
   },
 ]
 
@@ -111,14 +111,14 @@ const PROCESS = [
 const GALLERY_FILTERS = ['All', 'Extensions', 'Renovations', 'Brickwork', 'Patios']
 
 const GALLERY = [
-  { src: '/images/rear-extension.png', alt: 'Completed single-storey rear extension with sliding doors and roof lantern', cat: 'Extensions', tag: 'Single-storey rear extension' },
-  { src: '/images/extension-living-room.png', alt: 'Finished extension interior with feature wall, oak flooring and skylights', cat: 'Extensions', tag: 'Extension interior' },
-  { src: '/images/extension-skylights.png', alt: 'Vaulted extension ceiling with twin skylights and feature beam', cat: 'Extensions', tag: 'Vaulted ceiling and skylights' },
-  { src: '/images/extension-structure.png', alt: 'Steel beam and timber roof structure during an extension build', cat: 'Extensions', tag: 'Extension in progress' },
-  { src: '/images/roof-lantern-room.png', alt: 'Renovated room with roof lantern, bifold doors and herringbone flooring', cat: 'Renovations', tag: 'Roof lantern and bifolds' },
-  { src: '/images/sliding-doors.png', alt: 'New structural opening with sliding patio doors', cat: 'Renovations', tag: 'Structural opening and sliding doors' },
-  { src: '/images/driveway-stone-wall.png', alt: 'Block-paved driveway with natural stone garden wall', cat: 'Brickwork', tag: 'Driveway and stone walling' },
-  { src: '/images/patio-garden-room.png', alt: 'Slate patio with railway sleeper planters and garden room', cat: 'Patios', tag: 'Patio and landscaping' },
+  { src: 'images/rear-extension.png', alt: 'Completed single-storey rear extension with sliding doors and roof lantern', cat: 'Extensions', tag: 'Single-storey rear extension' },
+  { src: 'images/extension-living-room.png', alt: 'Finished extension interior with feature wall, oak flooring and skylights', cat: 'Extensions', tag: 'Extension interior' },
+  { src: 'images/extension-skylights.png', alt: 'Vaulted extension ceiling with twin skylights and feature beam', cat: 'Extensions', tag: 'Vaulted ceiling and skylights' },
+  { src: 'images/extension-structure.png', alt: 'Steel beam and timber roof structure during an extension build', cat: 'Extensions', tag: 'Extension in progress' },
+  { src: 'images/roof-lantern-room.png', alt: 'Renovated room with roof lantern, bifold doors and herringbone flooring', cat: 'Renovations', tag: 'Roof lantern and bifolds' },
+  { src: 'images/sliding-doors.png', alt: 'New structural opening with sliding patio doors', cat: 'Renovations', tag: 'Structural opening and sliding doors' },
+  { src: 'images/driveway-stone-wall.png', alt: 'Block-paved driveway with natural stone garden wall', cat: 'Brickwork', tag: 'Driveway and stone walling' },
+  { src: 'images/patio-garden-room.png', alt: 'Slate patio with railway sleeper planters and garden room', cat: 'Patios', tag: 'Patio and landscaping' },
 ]
 
 const REVIEWS = [
@@ -212,7 +212,7 @@ function App() {
         <div className="nav-inner">
           <a href="#top" className="nav-logo" onClick={closeMenu}>
             <img
-              src={scrolled || menuOpen ? '/images/gj-logo-flat.png' : '/images/gj-logo-white.png'}
+              src={scrolled || menuOpen ? 'images/gj-logo-flat.png' : 'images/gj-logo-white.png'}
               alt="GJ Builders - Built on Quality"
               className="nav-logo-img"
             />
@@ -246,7 +246,7 @@ function App() {
 
       <header id="top" className="hero" ref={heroRef}>
         <div className="hero-bg">
-          <img src="/images/extension-structure.png" alt="" className="hero-bg-img" />
+          <img src="images/extension-structure.png" alt="" className="hero-bg-img" />
         </div>
         <div className="hero-overlay" />
 
@@ -291,7 +291,7 @@ function App() {
           <div className="about-grid">
             <Reveal className="about-visual">
               <div className="about-image-main">
-                <img src="/images/rear-extension.png" alt="Completed single-storey rear extension by GJ Builders" loading="lazy" />
+                <img src="images/rear-extension.png" alt="Completed single-storey rear extension by GJ Builders" loading="lazy" />
               </div>
             </Reveal>
             <Reveal className="about-copy" delay={0.1}>
@@ -619,7 +619,7 @@ function App() {
       <footer className="footer">
         <div className="container footer-grid">
           <div className="footer-brand">
-            <img src="/images/gj-logo-white.png" alt="GJ Builders - Built on Quality" className="footer-logo-img" />
+            <img src="images/gj-logo-white.png" alt="GJ Builders - Built on Quality" className="footer-logo-img" />
             <p>Professional building services for extensions, renovations, bricklaying and patios.</p>
           </div>
           <div className="footer-col">
