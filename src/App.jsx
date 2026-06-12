@@ -291,7 +291,7 @@ function App() {
           <div className="about-grid">
             <Reveal className="about-visual">
               <div className="about-image-main">
-                <img src="images/extension-structure.png" alt="Extension build in progress by GJ Builders" loading="lazy" />
+                <img src="images/rear-extension.png" alt="Completed single-storey rear extension by GJ Builders" loading="lazy" />
               </div>
             </Reveal>
             <Reveal className="about-copy" delay={0.1}>
