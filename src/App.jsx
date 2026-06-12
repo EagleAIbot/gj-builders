@@ -246,7 +246,7 @@ function App() {
 
       <header id="top" className="hero" ref={heroRef}>
         <div className="hero-bg">
-          <img src="images/extension-structure.png" alt="" className="hero-bg-img" />
+          <img src="images/rear-extension.png" alt="" className="hero-bg-img" />
         </div>
         <div className="hero-overlay" />
 
@@ -291,7 +291,7 @@ function App() {
           <div className="about-grid">
             <Reveal className="about-visual">
               <div className="about-image-main">
-                <img src="images/rear-extension.png" alt="Completed single-storey rear extension by GJ Builders" loading="lazy" />
+                <img src="images/extension-structure.png" alt="Extension build in progress by GJ Builders" loading="lazy" />
               </div>
             </Reveal>
             <Reveal className="about-copy" delay={0.1}>
